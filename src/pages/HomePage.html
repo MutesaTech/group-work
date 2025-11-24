@@ -1,13 +1,193 @@
 <!doctype html>
 <html>
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="../styles/output.css" rel="stylesheet">
 </head>
+
 <body>
-  <h1 class="text-3xl font-bold underline">
-    Hello worldffdsafdsafd
-  </h1>
+
+  <!-- Navigation for the system -->
+  <div class="w-full bg-image3 bg-cover bg-center h-full">
+
+    <div class="w-full h-full text-white bg-slate-900/60 flex flex-col gap-y-24">
+      <div class=" max-sm:fixed max-sm:h-20 navigation w-full h-full max-sm:backdrop-blur-3xl max-sm:bg-slate-500/30 text-white  flex justify-between max-lg:px-5 max-sm:items-center max-sm:border-b border-b-gray-50/20  px-24 items-center py-3">
+
+
+        <!-- Logo section -->
+        <div class="logo  max-sm:flex max-sm:align-center max-sm:gap-x-3">
+          <div class="h-24 max-sm:h-16">
+            <svg class="w-full h-full" viewBox="0 0 120 150" xmlns="http://www.w3.org/2000/svg">
+              <path d="M10 10 L110 10 L110 80 C110 120 60 140 60 140 C60 140 10 120 10 80 Z" fill="#0033A0"
+                stroke="#002266" stroke-width="4" />
+              <path d="M25 25 L95 25 L95 80 C95 110 60 125 60 125 C60 125 25 110 25 80 Z" fill="#F2A900" />
+              <rect x="42" y="40" width="10" height="45" fill="#0033A0" />
+              <rect x="68" y="40" width="10" height="45" fill="#0033A0" />
+              <rect x="42" y="55" width="36" height="10" fill="#0033A0" />
+            </svg>
+          </div>
+
+          <!-- Logo titles / name -->
+
+          <div>
+            <h1 class="font-bold max-sm:text-xl text-3xl tracking-wide"> HOFSTRA</h1>
+            <h1 class="font-semibold max-sm:text-sm tracking-[6px]">UNIVERSITY</h1>
+          </div>
+        </div>
+
+        <!-- Navigation links -->
+
+        <div class="flex gap-x-16 max-sm:hidden font-bold">
+          <a href="#" class="relative text-gray-200 
+          after:content-[''] 
+          after:absolute 
+          after:left-0 
+          after:-bottom-1 
+          after:w-full 
+          after:h-1 
+          after:rounded-2xl 
+        after:bg-blue-600 ">
+            Home
+          </a>
+
+          <a href="" class="    
+          relative text-gray-800 dark:text-gray-200
+          transition-colors duration-300
+          after:content-[''] 
+          after:absolute 
+          after:left-0 
+          after:-bottom-1 
+          after:w-0 
+          after:h-1 
+          after:rounded-full 
+        after:bg-blue-500 
+          after:transition-all 
+          after:duration-700 
+          hover:after:w-full">About Us</a>
+
+          <a href=""
+            class="relative text-gray-200 transition-colors duration-300 after:[''] after:absolute after:left-0 after:w-0 after:-bottom-1 after:rounded-2xl after:bg-blue-500 after:h-1 after:transition-all after:duration-700 hover:after:w-full">Contact
+            Us</a>
+        </div>
+
+        <!-- Register Button -->
+
+        <div>
+          <button
+            class="rounded-xl transition-colors hover:bg-blue-800 cursor-pointer duration-300 font-semibold bg-blue-700 text-white px-6 py-2">Register</button>
+        </div>
+      </div>
+
+      <!-- Section page -->
+
+      <div class="max-sm:mt-40 px-4 lg:px-24 flex flex-col max-sm:items-center gap-y-7 pb-36">
+        <div>
+          <h1 class="font-semibold tracking-wider text-6xl max-sm:w-auto max-sm:text-center lg:w-1/2">
+            HOFSTRA RHODES SCHOLAR <br class="max-sm:hidden"><span class="text-yellow-300">
+              MAKING HISTORY
+            </span>
+          </h1>
+        </div>
+
+        <!-- the button -->
+
+        <div>
+          <button class="text-blue-700 font-semibold bg-white rounded-4xl px-4 py-4">Meet Resa B. Nelson</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Programmes section -->
+
+  <div class="px-20 max-md:px-4 py-32 flex flex-col gap-y-10">
+
+    <!-- title part -->
+    <div>
+      <h1 class="text-5xl tracking-wider text-blue-500 font-semibold">Find Your Program</h1>
+    </div>
+
+    <!-- Programmes section -->
+    <div class="flex justify-between max-sm:flex-col max-sm:gap-y-6 border-b pb-10 border-b-slate-400">
+
+      <!-- Buttons -->
+      <div class="flex gap-x-10">
+        <button
+          class="cursor-pointer bg-blue-800 text-white px-5 py-4 font-semibold rounded-full">Undergraduate</button>
+        <button class="cursor-pointer px-5 py-4 text-blue-800 border border-blue-800 rounded-full">Graduate</button>
+      </div>
+
+
+      <!-- Search input sid -->
+      <div class="flex items-center border border-slate-500 rounded-full pr-10 max-sm:h-16 sm:w-1/2">
+        <input type="text" name="" class="w-full h-full px-10 focus:outline-none focus:ring-0 border-none rounded-full"
+          placeholder="Search ...">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+          stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+          class="lucide lucide-search-icon lucide-search">
+          <path d="m21 21-4.34-4.34" />
+          <circle cx="11" cy="11" r="8" />
+        </svg>
+      </div>
+    </div>
+
+
+    <!-- Content-sid -->
+
+    <div class="grid grid-cols-2 gap-x-10 max-sm:grid-cols-1 max-sm:gap-y-5 xl:gap-x-40 items-center pt-10">
+
+      <!-- Image -->
+      <div class="bg-image8 bg-cover bg-center w-full h-[45vh] xl:h-[65vh]"></div>
+
+      <div class="flex flex-col gap-y-5 font-semibold">
+
+        <!-- title -->
+        <div>
+          <h1 class="text-5xl text-blue-700">Our Journeys Meet Here </h1>
+        </div>
+
+        <!-- content -->
+        <div>
+          <h1 class="leading-relaxed text-xl">At Hofstra, we combine an innovative academic approach, comprehensive student
+            support, and a focus on
+            community engagement on a local scale and national stage. Whether you're joining as a first-year student or
+            looking to pursue a specialized degree, we give you the knowledge and experience to define your future,
+            spark change, and ignite your momentum.</h1>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <!-- next seciton -->
+
+  <div class=" lg:h-[70vh] w-full grid grid-cols-1 grid-rows-1">
+    <video src="../image/vid1.mp4" loop autoplay muted
+      class="w-full h-full col-start-1 row-start-1 object-cover object-center"></video>
+    <div class="w-full h-full bg-slate-900/50 col-start-1 row-start-1 z-10"></div>
+
+    <!-- content-side -->
+
+    <div class="flex flex-col gap-y-5 lg:w-1/2 h-full col-start-1 row-start-1 z-20 max-md:px-4 px-24 pt-20">
+
+      <!-- title -->
+      <div>
+        <h1 class="text-5xl font-semibold text-white">This Is Your <br class="max-sm:hidden">Next Leap</h1>
+      </div>
+
+      <div>
+        <p class="text-white tracking-wide text-xl">
+          Bridge academic exploration with experiential and interdisciplinary learning. Make the most of your time here
+          with personalized attention and unique, career-oriented experiences that accelerate your journey. Challenge
+          the norms. Discover new ways to solve problems, think critically, and become career ready.
+        </p>
+      </div>
+
+      <button class="text-blue-700 text-sm font-semibold w-1/2 lg:w-1/3 bg-white rounded-4xl px-4 py-4">Explore Admission</button>
+    </div>
+  </div>
 </body>
+
 </html>

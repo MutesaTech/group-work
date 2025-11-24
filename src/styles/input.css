@@ -1,1 +1,35 @@
 @import "tailwindcss";
+
+.bg-image1{
+    background-image: url('../image/image1.jpg');
+}
+.bg-image2{
+    background-image: url('../image/image2.jpg');
+}
+.bg-image3{
+    background-image: url('../image/image3.jpg');
+}
+.bg-image4{
+    background-image: url('../image/image4.jpg');
+}
+.bg-image5{
+    background-image: url('../image/image5.jpg');
+}
+.bg-image6{
+    background-image: url('../image/image6.jpg');
+}
+.bg-image7{
+    background-image: url('../image/image7.jpg');
+}
+.bg-image8{
+    background-image: url('../image/image8.jpg');
+}
+.bg-image9{
+    background-image: url('../image/image9.jpg');
+}
+.bg-image10{
+    background-image: url('../image/image10.jpg');
+}
+.bg-image11{
+    background-image: url('../image/image11.jpg');
+}
