@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title>Register</title>
+</head>
+
+<body class="bg-gray-50 flex items-center justify-center min-h-screen">
+  <div class="max-w-2xl w-full bg-white shadow-xl rounded-2xl p-10 border border-gray-200">
+    
+    <h1 class="text-4xl font-semibold text-gray-800 mb-6">Register</h1>
+    <p class="text-gray-600 mb-8">To register for an account, please enter the information requested below.</p>
+
+    <form class="space-y-6">
+
+      <div>
+        <label class="block text-gray-700 font-medium mb-1">Email Address</label>
+        <input type="email" class="w-full border border-gray-300 rounded-xl px-4 py-3 focus:ring-2 focus:ring-blue-500 focus:outline-none" />
+      </div>
+
+      <div>
+        <label class="block text-gray-700 font-medium mb-1">First Name</label>
+        <input type="text" class="w-full border border-gray-300 rounded-xl px-4 py-3 focus:ring-2 focus:ring-blue-500 focus:outline-none" />
+      </div>
+
+      <div>
+        <label class="block text-gray-700 font-medium mb-1">Last Name</label>
+        <input type="text" class="w-full border border-gray-300 rounded-xl px-4 py-3 focus:ring-2 focus:ring-blue-500 focus:outline-none" />
+      </div>
+
+      <!-- Birthdate -->
+      <div>
+        <label class="block text-gray-700 font-medium mb-1">Birthdate</label>
+        <div class="flex gap-3">
+
+          <!-- Day -->
+          <select class="w-full border border-gray-300 rounded-xl px-3 py-3 focus:ring-2 focus:ring-blue-500 focus:outline-none">
+            <option value="">Day</option>
+            <option>1</option><option>2</option><option>3</option><option>4</option><option>5</option>
+            <option>6</option><option>7</option><option>8</option><option>9</option><option>10</option>
+            <option>11</option><option>12</option><option>13</option><option>14</option><option>15</option>
+            <option>16</option><option>17</option><option>18</option><option>19</option><option>20</option>
+            <option>21</option><option>22</option><option>23</option><option>24</option><option>25</option>
+            <option>26</option><option>27</option><option>28</option><option>29</option><option>30</option>
+            <option>31</option>
+          </select>
+
+          <!-- Month -->
+          <select class="w-full border border-gray-300 rounded-xl px-3 py-3 focus:ring-2 focus:ring-blue-500 focus:outline-none">
+            <option value="">Month</option>
+            <option>January</option><option>February</option><option>March</option><option>April</option>
+            <option>May</option><option>June</option><option>July</option><option>August</option>
+            <option>September</option><option>October</option><option>November</option><option>December</option>
+          </select>
+
+          <!-- Year -->
+          <select class="w-full border border-gray-300 rounded-xl px-3 py-3 focus:ring-2 focus:ring-blue-500 focus:outline-none">
+            <option value="">Year</option>
+            <!-- Years 2025 → 1904 -->
+            <option>2025</option><option>2024</option><option>2023</option><option>2022</option><option>2021</option>
+            <option>2020</option><option>2019</option><option>2018</option><option>2017</option><option>2016</option>
+            <option>2015</option><option>2014</option><option>2013</option><option>2012</option><option>2011</option>
+            <option>2010</option><option>2009</option><option>2008</option><option>2007</option><option>2006</option>
+            <option>2005</option><option>2004</option><option>2003</option><option>2002</option><option>2001</option>
+            <option>2000</option><option>1999</option><option>1998</option><option>1997</option><option>1996</option>
+            <option>1995</option><option>1994</option><option>1993</option><option>1992</option><option>1991</option>
+            <option>1990</option><option>1989</option><option>1988</option><option>1987</option><option>1986</option>
+            <option>1985</option><option>1984</option><option>1983</option><option>1982</option><option>1981</option>
+            <option>1980</option><option>1979</option><option>1978</option><option>1977</option><option>1976</option>
+            <option>1975</option><option>1974</option><option>1973</option><option>1972</option><option>1971</option>
+            <option>1970</option><option>1969</option><option>1968</option><option>1967</option><option>1966</option>
+            <option>1965</option><option>1964</option><option>1963</option><option>1962</option><option>1961</option>
+            <option>1960</option><option>1959</option><option>1958</option><option>1957</option><option>1956</option>
+            <option>1955</option><option>1954</option><option>1953</option><option>1952</option><option>1951</option>
+            <option>1950</option><option>1949</option><option>1948</option><option>1947</option><option>1946</option>
+            <option>1945</option><option>1944</option><option>1943</option><option>1942</option><option>1941</option>
+            <option>1940</option><option>1939</option><option>1938</option><option>1937</option><option>1936</option>
+            <option>1935</option><option>1934</option><option>1933</option><option>1932</option><option>1931</option>
+            <option>1930</option><option>1929</option><option>1928</option><option>1927</option><option>1926</option>
+            <option>1925</option><option>1924</option><option>1923</option><option>1922</option><option>1921</option>
+            <option>1920</option><option>1919</option><option>1918</option><option>1917</option><option>1916</option>
+            <option>1915</option><option>1914</option><option>1913</option><option>1912</option><option>1911</option>
+            <option>1910</option><option>1909</option><option>1908</option><option>1907</option><option>1906</option>
+            <option>1905</option><option>1904</option>
+          </select>
+
+        </div>
+      </div>
+
+      <button class="w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold rounded-xl py-3 mt-4 transition-all shadow-md">
+        Continue
+      </button>
+
+      <!-- Students & Teachers Table -->
+<div class="max-w-2xl w-full bg-white shadow-lg rounded-2xl p-8 mt-10 border border-gray-200">
+
+  <h2 class="text-2xl font-semibold text-gray-800 mb-6">Education Overview</h2>
+
+  <div class="overflow-x-auto">
+    <table class="w-full text-left border-collapse">
+      <thead>
+        <tr class="bg-gray-100 border-b border-gray-300">
+          <th class="py-4 px-6 font-semibold text-gray-700">Category</th>
+          <th class="py-4 px-6 font-semibold text-gray-700 text-center">Count</th>
+        </tr>
+      </thead>
+
+      <tbody class="divide-y divide-gray-200">
+        <tr class="hover:bg-gray-50 transition">
+          <td class="py-4 px-6 text-gray-800 font-medium">Number of Students</td>
+          <td class="py-4 px-6 text-center text-blue-600 font-bold">1200</td>
+        </tr>
+
+        <tr class="hover:bg-gray-50 transition">
+          <td class="py-4 px-6 text-gray-800 font-medium">Number of Teachers</td>
+          <td class="py-4 px-6 text-center text-green-600 font-bold">75</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+</div>
+
+    </form>
+  </div>
+</body>
+</html>
