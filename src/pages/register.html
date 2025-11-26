@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Register</title>
+  <link rel="stylesheet" href="../styles/output.css">
+</head>
+
+<body class="bg-gray-50 min-h-screen flex flex-col">
+
+  <!-- Navigation for the system -->
+  <div class="w-full bg-image2 bg-cover bg-center h-full">
+
+    <div class="w-full h-full text-white bg-slate-900/90 flex flex-col gap-y-24">
+      <div
+        class=" max-sm:fixed max-sm:h-20 navigation w-full h-full max-sm:backdrop-blur-3xl max-sm:bg-slate-700/50 text-white  flex justify-between max-lg:px-5 max-sm:items-center max-sm:border-b border-b-gray-50/20  px-24 items-center py-3">
+
+
+        <!-- Logo section -->
+        <div class="logo flex align-center gap-x-5 max-sm:flex max-sm:align-center max-sm:gap-x-3">
+          <div class="h-16">
+            <svg class="w-full h-full" viewBox="0 0 120 150" xmlns="http://www.w3.org/2000/svg">
+              <path d="M10 10 L110 10 L110 80 C110 120 60 140 60 140 C60 140 10 120 10 80 Z" fill="#0033A0"
+                stroke="#002266" stroke-width="4" />
+              <path d="M25 25 L95 25 L95 80 C95 110 60 125 60 125 C60 125 25 110 25 80 Z" fill="#F2A900" />
+              <rect x="42" y="40" width="10" height="45" fill="#0033A0" />
+              <rect x="68" y="40" width="10" height="45" fill="#0033A0" />
+              <rect x="42" y="55" width="36" height="10" fill="#0033A0" />
+            </svg>
+          </div>
+
+          <!-- Logo titles / name -->
+
+          <div>
+            <h1 class="font-bold max-sm:text-xl text-3xl tracking-wide"> HOFSTRA</h1>
+            <h1 class="font-semibold max-sm:text-sm tracking-[6px]">UNIVERSITY</h1>
+          </div>
+        </div>
+
+        <!-- Navigation links -->
+
+        <div class="flex gap-x-16 max-sm:hidden font-bold">
+          <a href="HomePage.html" class="relative text-gray-200">
+            Home
+          </a>
+
+          <a href="AboutUs.html" class="    
+          relative text-gray-800 dark:text-gray-200
+          transition-colors duration-300
+          after:content-[''] 
+          after:absolute 
+          after:left-0 
+          after:-bottom-1 
+          after:w-0 
+          after:h-1 
+          after:rounded-full 
+        after:bg-blue-500 
+          after:transition-all 
+          after:duration-700 
+          hover:after:w-full">About Us</a>
+
+          <a href=""
+            class="relative text-gray-200 transition-colors duration-300 after:[''] after:absolute after:left-0 after:w-0 after:-bottom-1 after:rounded-2xl after:bg-blue-500 after:h-1 after:transition-all after:duration-700 hover:after:w-full">Contact
+            Us</a>
+        </div>
+
+        <!-- Register Button -->
+
+        <div>
+          <button
+            class="rounded-xl transition-colors hover:bg-blue-800 cursor-pointer duration-300 font-semibold bg-blue-700 text-white px-6 py-2">Register</button>
+        </div>
+      </div>
+
+      <!-- the button -->
+    </div>
+  </div>
+
+  <div class="sm:flex py-20 flex-col max-sm:px-4 px-20">
+    <div class="max-w-2xl w-full rounded-2xl self-center px-20 py-10 border-gray-200">
+
+      <h1 class="text-4xl font-semibold text-gray-800 mb-6">Register</h1>
+      <p class="text-gray-600 mb-8">To register for an account, please enter the information requested below.</p>
+
+      <form class="space-y-6">
+
+        <div>
+          <label class="block text-gray-700 font-medium mb-1">Email Address</label>
+          <input type="email"
+            class="w-full border border-gray-300 rounded-xl px-4 py-3 focus:ring-2 focus:ring-blue-500 focus:outline-none" />
+        </div>
+
+        <div>
+          <label class="block text-gray-700 font-medium mb-1">First Name</label>
+          <input type="text"
+            class="w-full border border-gray-300 rounded-xl px-4 py-3 focus:ring-2 focus:ring-blue-500 focus:outline-none" />
+        </div>
+
+        <div>
+          <label class="block text-gray-700 font-medium mb-1">Last Name</label>
+          <input type="text"
+            class="w-full border border-gray-300 rounded-xl px-4 py-3 focus:ring-2 focus:ring-blue-500 focus:outline-none" />
+        </div>
+
+        <!-- Birthdate -->
+        <div>
+          <label class="block text-gray-700 font-medium mb-1">Birthdate</label>
+          <div class="flex gap-3">
+
+            <!-- Day -->
+            <select
+              class="w-full border border-gray-300 rounded-xl px-3 py-3 focus:ring-2 focus:ring-blue-500 focus:outline-none">
+              <option value="">Day</option>
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+              <option>5</option>
+              <option>6</option>
+              <option>7</option>
+              <option>8</option>
+              <option>9</option>
+              <option>10</option>
+              <option>11</option>
+              <option>12</option>
+              <option>13</option>
+              <option>14</option>
+              <option>15</option>
+              <option>16</option>
+              <option>17</option>
+              <option>18</option>
+              <option>19</option>
+              <option>20</option>
+              <option>21</option>
+              <option>22</option>
+              <option>23</option>
+              <option>24</option>
+              <option>25</option>
+              <option>26</option>
+              <option>27</option>
+              <option>28</option>
+              <option>29</option>
+              <option>30</option>
+              <option>31</option>
+            </select>
+
+            <!-- Month -->
+            <select
+              class="w-full border border-gray-300 rounded-xl px-3 py-3 focus:ring-2 focus:ring-blue-500 focus:outline-none">
+              <option value="">Month</option>
+              <option>January</option>
+              <option>February</option>
+              <option>March</option>
+              <option>April</option>
+              <option>May</option>
+              <option>June</option>
+              <option>July</option>
+              <option>August</option>
+              <option>September</option>
+              <option>October</option>
+              <option>November</option>
+              <option>December</option>
+            </select>
+
+            <!-- Year -->
+            <select
+              class="w-full border border-gray-300 rounded-xl px-3 py-3 focus:ring-2 focus:ring-blue-500 focus:outline-none">
+              <option value="">Year</option>
+              <!-- Years 2025 → 1904 -->
+              <option>2025</option>
+              <option>2024</option>
+              <option>2023</option>
+              <option>2022</option>
+              <option>2021</option>
+              <option>2020</option>
+              <option>2019</option>
+              <option>2018</option>
+              <option>2017</option>
+              <option>2016</option>
+              <option>2015</option>
+              <option>2014</option>
+              <option>2013</option>
+              <option>2012</option>
+              <option>2011</option>
+              <option>2010</option>
+              <option>2009</option>
+              <option>2008</option>
+              <option>2007</option>
+              <option>2006</option>
+              <option>2005</option>
+              <option>2004</option>
+              <option>2003</option>
+              <option>2002</option>
+              <option>2001</option>
+              <option>2000</option>
+              <option>1999</option>
+              <option>1998</option>
+              <option>1997</option>
+              <option>1996</option>
+              <option>1995</option>
+              <option>1994</option>
+              <option>1993</option>
+              <option>1992</option>
+              <option>1991</option>
+              <option>1990</option>
+              <option>1989</option>
+              <option>1988</option>
+              <option>1987</option>
+              <option>1986</option>
+              <option>1985</option>
+              <option>1984</option>
+              <option>1983</option>
+              <option>1982</option>
+              <option>1981</option>
+              <option>1980</option>
+              <option>1979</option>
+              <option>1978</option>
+              <option>1977</option>
+              <option>1976</option>
+              <option>1975</option>
+              <option>1974</option>
+              <option>1973</option>
+              <option>1972</option>
+              <option>1971</option>
+              <option>1970</option>
+              <option>1969</option>
+              <option>1968</option>
+              <option>1967</option>
+              <option>1966</option>
+              <option>1965</option>
+              <option>1964</option>
+              <option>1963</option>
+              <option>1962</option>
+              <option>1961</option>
+              <option>1960</option>
+              <option>1959</option>
+              <option>1958</option>
+              <option>1957</option>
+              <option>1956</option>
+              <option>1955</option>
+              <option>1954</option>
+              <option>1953</option>
+              <option>1952</option>
+              <option>1951</option>
+              <option>1950</option>
+              <option>1949</option>
+              <option>1948</option>
+              <option>1947</option>
+              <option>1946</option>
+              <option>1945</option>
+              <option>1944</option>
+              <option>1943</option>
+              <option>1942</option>
+              <option>1941</option>
+              <option>1940</option>
+              <option>1939</option>
+              <option>1938</option>
+              <option>1937</option>
+              <option>1936</option>
+              <option>1935</option>
+              <option>1934</option>
+              <option>1933</option>
+              <option>1932</option>
+              <option>1931</option>
+              <option>1930</option>
+              <option>1929</option>
+              <option>1928</option>
+              <option>1927</option>
+              <option>1926</option>
+              <option>1925</option>
+              <option>1924</option>
+              <option>1923</option>
+              <option>1922</option>
+              <option>1921</option>
+              <option>1920</option>
+              <option>1919</option>
+              <option>1918</option>
+              <option>1917</option>
+              <option>1916</option>
+              <option>1915</option>
+              <option>1914</option>
+              <option>1913</option>
+              <option>1912</option>
+              <option>1911</option>
+              <option>1910</option>
+              <option>1909</option>
+              <option>1908</option>
+              <option>1907</option>
+              <option>1906</option>
+              <option>1905</option>
+              <option>1904</option>
+            </select>
+
+          </div>
+        </div>
+
+        <button
+          class="w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold rounded-xl py-3 mt-4 transition-all shadow-md">
+          Continue
+        </button>
+
+
+      </form>
+
+    </div>
+    <!-- Students & Teachers Table -->
+    <div class="mt-20 bg-white self-center w-full">
+
+      <h2 class="text-2xl font-semibold text-gray-800 mb-6">Education Overview</h2>
+
+      <div class="overflow-x-auto">
+        <table class="w-full text-left border-collapse">
+          <thead>
+            <tr class="bg-gray-100 border-b border-gray-300">
+              <th class="py-4 px-6 font-semibold text-gray-700">Category</th>
+              <th class="py-4 px-6 font-semibold text-gray-700 text-center">Count</th>
+            </tr>
+          </thead>
+
+          <tbody class="divide-y divide-gray-200">
+            <tr class="hover:bg-gray-50 transition">
+              <td class="py-4 px-6 text-gray-800 font-medium">Number of Students</td>
+              <td class="py-4 px-6 text-center text-blue-600 font-bold">1200</td>
+            </tr>
+
+            <tr class="hover:bg-gray-50 transition">
+              <td class="py-4 px-6 text-gray-800 font-medium">Number of Teachers</td>
+              <td class="py-4 px-6 text-center text-green-600 font-bold">75</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+    </div>
+  </div>
+
+
+  <!-- Footer -->
+  <footer class="py-10 md:px-20 px-4 bg-blue-800 text-white">
+
+    <!-- footer-content -->
+    <div class="grid grid-cols-2 pb-10 max-sm:grid-cols-1 gap-x-40">
+
+      <!-- main footer content -->
+      <div class="flex flex-col gap-y-10 ">
+
+        <!-- Logo div -->
+        <div class="logo flex gap-x-5 items-center">
+          <div class="h-14">
+            <svg class="w-full h-full" viewBox="0 0 120 150" xmlns="http://www.w3.org/2000/svg">
+              <path d="M10 10 L110 10 L110 80 C110 120 60 140 60 140 C60 140 10 120 10 80 Z" fill="#0033A0"
+                stroke="#002266" stroke-width="4" />
+              <path d="M25 25 L95 25 L95 80 C95 110 60 125 60 125 C60 125 25 110 25 80 Z" fill="#F2A900" />
+              <rect x="42" y="40" width="10" height="45" fill="#0033A0" />
+              <rect x="68" y="40" width="10" height="45" fill="#0033A0" />
+              <rect x="42" y="55" width="36" height="10" fill="#0033A0" />
+            </svg>
+          </div>
+
+          <!-- Logo titles / name -->
+          <div>
+            <h1 class="font-bold max-sm:text-xl text-3xl tracking-wide"> HOFSTRA</h1>
+            <h1 class="font-semibold max-sm:text-sm tracking-[6px]">UNIVERSITY</h1>
+          </div>
+        </div>
+
+        <!-- our location -->
+        <div class="flex flex-col gap-y-3 font-semibold text-sm">
+          <h1>Hempstead, N.Y. 11549-1000</h1>
+          <a href="tel:+250798019397">(250)79988998</a>
+          <h1>Campus</h1>
+          <h1>Take a tour</h1>
+        </div>
+
+        <!-- other contents -->
+        <div>
+          <h1 class="font-semibold text-sm">
+            Hofstra University is an EO/AA/ADA educator and employer and does not discriminate on the basis
+            of race,
+            color, national and ethnic origin, or religion, sex, sexual orientation, gender identity or
+            expression, age,
+            physical or mental disability, marital or veteran status in administration of its educational
+            policies,
+            admissions policies, scholarship and loan programs, and athletic and other school-administered
+            programs.
+          </h1>
+        </div>
+      </div>
+
+      <div class="flex max-sm:flex-col gap-y-10 gap-x-20">
+        <!-- info -->
+        <div class="flex flex-col gap-y-5 font-bold text-sm">
+          <a href="request-info.html">Request Info</a>
+          <a href="apply.html">Apply</a>
+          <a href="visit.html">Visit</a>
+          <a href="give.html">Give</a>
+        </div>
+
+        <div class="flex flex-col gap-y-5 font-bold text-sm">
+          <a href="academics.html">Academics</a>
+          <a href="admissions.html">Admissions</a>
+          <a href="research.html">Research</a>
+          <a href="alumni.html">Alumni</a>
+        </div>
+
+        <div class="flex flex-col gap-y-5 font-bold text-sm">
+          <a href="contact.html">Contact</a>
+          <a href="privacy.html">Privacy</a>
+          <a href="policies.html">Policies</a>
+          <a href="news.html">News</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- copyright trademark sign -->
+    <div class="flex gap-y-5 gap-x-5 font-semibold border-t pt-5 border-slate-300 max-sm:flex-col">
+      <div>
+        <h1>© Hofstra University. All Rights Reserved.</h1>
+      </div>
+
+      <div class="flex gap-y-5 max-sm:flex-col gap-x-10">
+        <a href="policies.html">Hofstra University Policies</a>
+        <a href="privacy.html">Privacy</a>
+        <a href="gdpr.html">GDPR</a>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
